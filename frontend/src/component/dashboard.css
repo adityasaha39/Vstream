@@ -1,0 +1,8 @@
+.dashboard-container {
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+}

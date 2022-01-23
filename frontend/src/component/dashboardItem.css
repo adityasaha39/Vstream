@@ -1,0 +1,10 @@
+.video-tile-link {
+  max-width: 270px;
+  color: white;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.vedio-img {
+  width: 100%;
+}

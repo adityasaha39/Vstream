@@ -1,0 +1,58 @@
+.pannel-container {
+  background-color: #313131;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.genre-container {
+  display: flex;
+  justify-content: center;
+}
+
+.age-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.genre-btn {
+  background-color: #313131;
+  margin: 5px;
+  color: white;
+  border: none;
+}
+
+.content-rating-btn {
+  background-color: #313131;
+  margin: 5px;
+  color: white;
+  border: none;
+}
+
+.content-rating-btn:active,
+.content-rating-btn:hover,
+.content-rating-btn::selection,
+.ant-btn:hover,
+.ant-btn:focus {
+  background-color: #4ca3fc;
+  color: white;
+}
+
+.genre-btn:active,
+.genre-btn:hover,
+.genre-btn::selection,
+.ant-btn:hover,
+.ant-btn:focus {
+  background-color: #4ca3fc;
+  color: white;
+  border-radius: 20px;
+}
+
+.ant-radio-button-wrapper:not(:first-child)::before {
+  background-color: #313131;
+}
+
+.ant-radio-button-wrapper:first-child {
+  border-left: 0px;
+}

@@ -1,0 +1,56 @@
+.video-parent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #313131;
+  padding: 20px;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 3px solid white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.iframe-parent {
+  width: 100%;
+  height: 0;
+  padding-bottom: 50.25%;
+  position: relative;
+}
+
+.iframe-responsive {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.vedio-description {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vedio-header {
+  display: flex;
+}
+
+h2 {
+  color: white;
+  padding: 0 5px;
+}
+p {
+  padding: 0 5px;
+}
+
+.btn-vote {
+  margin: 0 5px;
+}
