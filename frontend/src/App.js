@@ -6,7 +6,7 @@ import VedioPage from "./component/videoPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export const config = {
-  endpoint: `http://localhost:8082/v1`,
+  endpoint: `https://vstream-backend.herokuapp.com/v1`,
 };
 
 class App extends Component {

@@ -171,7 +171,7 @@ class header extends Component {
               <Option value="Comedy">Comedy</Option>
               <Option value="Lifestyle">Lifestyle</Option>
             </Select>
-            <h5>Type of hte video</h5>
+            <h5>Type of the video</h5>
             <Select defaultValue="7+" onChange={this.onChangeAge}>
               <Option value="7+">7+</Option>
               <Option value="12+">12+</Option>
