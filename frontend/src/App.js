@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import env from "./env";
 import "./App.css";
 import Header from "./component/header";
 import Pannel from "./component/pannel";
@@ -6,7 +7,7 @@ import VedioPage from "./component/videoPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export const config = {
-  endpoint: `https://vstream-backend.herokuapp.com/v1`,
+  endpoint: env.END_POINT,
 };
 
 class App extends Component {
